@@ -6,7 +6,8 @@
     "ftp/wget",
     "databases/sqlite3",
     "lang/mono",
-    "audio/chromaprint"
+    "audio/chromaprint",
+    "ftp/curl"
      ],
 
   "packagesite": "http://pkg.cdn.trueos.org/iocage/11.3-RELEASE",
