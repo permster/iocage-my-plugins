@@ -13,9 +13,9 @@ Install the plugin using static IP or DHCP.
 
 * Using static IP.  Adjust host interface and IP address as needed.
 ```
-iocage fetch -P -n mineos.json ip4_addr="re0|192.168.0.100"
+iocage fetch --plugin-name plugin_name.json -n jail_name ip4_addr="re0|192.168.0.100"
 ```
 * Using DHCP.
 ```
-iocage fetch -P -n dockett.json vnet=on dhcp=on bpf=yes
+iocage fetch --plugin-name plugin_name.json -n jail_name dhcp=on vnet=on bpf=yes
 ```
