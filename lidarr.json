@@ -2,10 +2,14 @@
   "name": "lidarr",                                                             
   "release": "11.3-RELEASE",
   "artifact": "https://github.com/permster/iocage-plugin-lidarr.git",
+  "properties": {
+    "nat": 1,
+    "nat_forwards": "tcp(8686)"
+  },
   "pkgs": [
     "ftp/wget",
-    "databases/sqlite3",
-    "lang/mono",
+    "sqlite3",
+    "mono",
     "audio/chromaprint",
     "ftp/curl"
      ],
