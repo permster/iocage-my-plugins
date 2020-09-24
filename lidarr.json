@@ -11,7 +11,8 @@
     "mono",
     "mediainfo",
     "curl",
-    "audio/chromaprint"
+    "ca_root_nss",
+    "chromaprint"
      ],
 
   "packagesite": "http://pkg.cdn.trueos.org/iocage/11.3-RELEASE",
