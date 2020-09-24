@@ -15,7 +15,7 @@
     "chromaprint"
      ],
 
-  "packagesite": "http://pkg.cdn.trueos.org/iocage/11.3-RELEASE",
+  "packagesite": "http://pkg.FreeBSD.org/FreeBSD:11:amd64/quarterly",
 
   "fingerprints": {
 	  "plugin-default": [
