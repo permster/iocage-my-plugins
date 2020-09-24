@@ -7,11 +7,11 @@
     "nat_forwards": "tcp(8686)"
   },
   "pkgs": [
-    "ftp/wget",
     "sqlite3",
     "mono",
-    "audio/chromaprint",
-    "ftp/curl"
+    "mediainfo",
+    "curl",
+    "audio/chromaprint"
      ],
 
   "packagesite": "http://pkg.cdn.trueos.org/iocage/11.3-RELEASE",
