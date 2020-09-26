@@ -14,7 +14,7 @@
         "libxslt",
         "py37-sqlite3",
         "unrar",
-        "ffprobe"
+        "ffmpeg"
     ],
     "packagesite": "http://pkg.FreeBSD.org/FreeBSD:11:amd64/quarterly",
     "fingerprints": {
