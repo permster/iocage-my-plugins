@@ -2,6 +2,10 @@
   "name": "alarmserver",                                                             
   "release": "11.3-RELEASE",
   "artifact": "https://github.com/permster/iocage-plugin-alarmserver.git",
+  "properties": {
+    "nat": 1,
+    "nat_forwards": "tcp(8111)"
+  },
   "pkgs": [
     "python27",
     "py27-pip",
