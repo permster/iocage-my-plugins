@@ -13,7 +13,8 @@
         "pcre",
         "v8",
         "snappy",
-        "snappyjava"
+        "snappyjava",
+        "curl"
     ],
     "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
     "fingerprints": {
