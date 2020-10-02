@@ -4,7 +4,9 @@
     "artifact": "https://github.com/permster/iocage-plugin-unifi.git",
     "properties": {
         "nat": 1,
-        "nat_forwards": "tcp(8443:8444),udp(3478:3478),tcp(8080:8080),tcp(6789:6789),udp(10001:10001),udp(1900:1900)"
+        "nat_forwards": "tcp(8443:8444),udp(3478:3478),tcp(8080:8080),tcp(6789:6789),udp(10001:10001),udp(1900:1900)",
+        "mount_procfs": 1,
+        "mount_fdescfs": 1
     },
     "pkgs": [
         "mongodb36",
