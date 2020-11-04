@@ -7,7 +7,7 @@
         "nat_forwards": "tcp(7878)"
     },
     "pkgs": [
-
+        "ca_root_nss"
     ],
     "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
     "fingerprints": {
