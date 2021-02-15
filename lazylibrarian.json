@@ -9,10 +9,11 @@
     "pkgs": [
         "git",
         "python3",
+        "py37-pip",
         "py37-sqlite3",
-        "py36-urllib3",
+        "py37-urllib3",
+        "py37-openssl",
         "unrar",
-        "pyOpenSSL",
         "ca_root_nss",
         "wget"
     ],
