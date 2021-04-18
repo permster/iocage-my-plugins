@@ -7,7 +7,8 @@
     "nat_forwards": "tcp(8080)"
   },  
   "pkgs": [
-    "openjdk11"
+    "openjdk11",
+    "ca_root_nss"
   ],
   "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
   "fingerprints": {
