@@ -8,6 +8,7 @@
   },  
   "pkgs": [
     "openjdk11",
+    "curl",
     "ca_root_nss"
   ],
   "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
