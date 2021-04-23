@@ -4,7 +4,7 @@
   "artifact": "https://github.com/permster/iocage-plugin-openhab3.git",
   "properties": {
     "nat": 1,
-    "nat_forwards": "tcp(8080)"
+    "nat_forwards": "tcp(8080),tcp(8443)"
   },  
   "pkgs": [
     "openjdk11",
