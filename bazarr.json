@@ -1,6 +1,6 @@
 {
     "name": "bazarr",
-    "release": "11.3-RELEASE",
+    "release": "12.2-RELEASE",
     "artifact": "https://github.com/permster/iocage-plugin-bazarr.git",
     "properties": {
         "nat": 1,
@@ -9,14 +9,14 @@
     "pkgs": [
         "git",
         "python3",
-        "py37-pip",
-        "py37-libxml2",
+        "py38-pip",
+        "py38-libxml2",
         "libxslt",
-        "py37-sqlite3",
+        "py38-sqlite3",
         "unrar",
         "ffmpeg"
     ],
-    "packagesite": "http://pkg.FreeBSD.org/FreeBSD:11:amd64/quarterly",
+    "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
     "fingerprints": {
         "iocage-plugins": [
             {
